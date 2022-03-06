@@ -29,7 +29,7 @@ body{
 }
 
 
-.foto{
+img{
     position:absolute;
     right: -75px;
     top:-75px;
@@ -48,7 +48,7 @@ h1{
 
 p{
     font-size: 18px;
-    text-align: justify;
+    
         
     }
 
@@ -73,7 +73,9 @@ p{
      font-size: 18px;
      font-weight: bold;
      text-transform: uppercase;
- }
+     }
+
+     
 
  .facebook{
      display:block;
@@ -96,4 +98,12 @@ p{
 
     .tlacitko2{
         padding:0 30px 30px 30px;
+    }
+
+    .tlacitko1 a:hover{
+        background-color:#0b7bc1;
+    }
+
+    .tlacitko2 a:hover{
+        background-color:#2b406e;
     }
