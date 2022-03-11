@@ -23,7 +23,7 @@ body{
     margin:150px auto 0 auto;
     width: 550px;
     border-radius: 10px;
-    box-shadow: 3px 3px #888888;
+    box-shadow: 3px 3px 10px #888888;
     background-color: white;
     font-family:'Nunito', sans-serif; 
 }
@@ -61,49 +61,42 @@ p{
     margin:0;
 }
 
- .twitter{
-     display: block;
-     width:100%;
-     background-color: #1da1f2 ;
-     color: white;
-     text-decoration: none;
-     text-align: center;
-     border-radius: 5px;
-     padding: 10px;
-     font-size: 18px;
-     font-weight: bold;
-     text-transform: uppercase;
-     }
-
-     
-
- .facebook{
-     display:block;
-     width:100%;
-     background-color:  #3b5998 ;
-     color: white;
-     text-decoration: none;
-     text-align: center;
-     border-radius: 5px;
-     padding: 10px;
-     font-size: 18px;
-     font-weight: bold;
-     text-transform: uppercase;
-     
+ a {
+    display: block;
+    width:100%;
+    background-color: #1da1f2 ;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
     }
 
-    .tlacitko1{
-        padding:0 30px 5px 30px;
+.twitter{
+    background-color: #1da1f2 ;
+
+}
+
+.facebook{
+    background-color:  #3b5998;
+}
+
+
+ .tlacitko1{
+     padding:0 30px 5px 30px;
     }
 
-    .tlacitko2{
-        padding:0 30px 30px 30px;
+.tlacitko2{
+     padding:0 30px 30px 30px;
     }
 
-    .tlacitko1 a:hover{
-        background-color:#0b7bc1;
+ .tlacitko1 a:hover{
+     background-color:#0b7bc1;
     }
 
-    .tlacitko2 a:hover{
-        background-color:#2b406e;
+ .tlacitko2 a:hover{
+    background-color:#2b406e;
     }
