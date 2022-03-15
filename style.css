@@ -26,6 +26,7 @@ body{
     box-shadow: 3px 3px 10px #888888;
     background-color: white;
     font-family:'Nunito', sans-serif; 
+    padding:30px;
 }
 
 
@@ -53,19 +54,11 @@ p{
         
     }
 
-.prvni{
-    padding:0 30px;
-}
 
-.druhy{
-    padding:0 30px 30px 30px;
-    margin:0;
-}
 
- a {
+ .tlacitko {
     display: block;
     width:100%;
-    background-color: #1da1f2 ;
     color: white;
     text-decoration: none;
     text-align: center;
@@ -78,6 +71,8 @@ p{
 
 .twitter{
     background-color: #1da1f2 ;
+    margin-bottom:5px;
+    margin-top:30px;
 
 }
 
@@ -86,18 +81,12 @@ p{
 }
 
 
- .tlacitko1{
-     padding:0 30px 5px 30px;
-    }
 
-.tlacitko2{
-     padding:0 30px 30px 30px;
-    }
 
- .tlacitko1 a:hover{
+ .twitter a:hover{
      background-color:#0b7bc1;
     }
 
- .tlacitko2 a:hover{
+ .facebook a:hover{
     background-color:#2b406e;
     }
